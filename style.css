@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-head {
+   margin-bottom: 40px;
+   margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-left: 30px; 
+    color: rgb(255, 11, 11);
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.container-nav {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: grey; */
+    width: 100vw;
+    height: 30px;
+}
+
+body {
+    background-image: url(./images/pexels-rachel-claire-4846455.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.content {
+    margin-top: 150px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    /* background-color: grey; */
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+}
+
+
+
